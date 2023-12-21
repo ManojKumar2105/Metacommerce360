@@ -23,8 +23,8 @@ const ProductAR = () => {
             <XR>
             {location.state.product == "Vintage Room" && <Vintageroom rotation-y={Math.PI/32} position-y={-1} />}
             {location.state.product == "Living Room" && <Livingroom />}
-            {location.state.product == "Sofaset" && <Sofaset position-y = {1} rotation-y = {Math.PI/16} rotation-x = {Math.PI/16} position-z={-4} />}
-            {location.state.product == "Office Chair" && <Officechair position-z={-4}  />}
+            {location.state.product == "Sofaset" && <Sofaset position-y = {0} rotation-y = {Math.PI/16} rotation-x = {Math.PI/16} position-z={-4} />}
+            {location.state.product == "Office Chair" && <Officechair position-z={-8} scale={0.3}  />}
             </XR>
         </Canvas>
     </div>
